@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG2.Amazon">
+      <class name="myntra.com.Myntra">
         <methods>
-          <include name="OpenAmazon"/>
+          <include name="takesscreenshot"/>
+          <include name="pick_an_element_based_on_condition"/>
+          <include name="openmyntra"/>
+          <include name="move_to_men_and_click_Tshirt"/>
         </methods>
-      </class> <!-- com.TestNG2.Amazon -->
+      </class> <!-- myntra.com.Myntra -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

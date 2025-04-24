@@ -76,7 +76,7 @@ public class Myntra {
 	for(WebElement y:Tshirtss) {
 			System.out.println(y.getAttribute("id"));
 				
-	if (y.getAttribute("id").contains("25899796")) {
+	if (y.getAttribute("id").contains("23053314")) {
 		y.click();
 	}
 	
